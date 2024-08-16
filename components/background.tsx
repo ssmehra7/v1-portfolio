@@ -2,6 +2,8 @@ import { useActiveSection } from "@/hooks/use-active-section";
 import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
+import { Btn2 } from "./btn2";
+import { IntroBtns } from "./intro-btn";
 
 export function DotBackground() {
   const { ref, inView } = useInView({
@@ -27,9 +29,9 @@ export function DotBackground() {
           }}
           className="flex flex-col"
         >
-          <p className="text-4xl font-mono sm:text-5xl font-bold relative z-5 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-2 ">
+          <div className="text-4xl font-mono sm:text-5xl font-bold relative z-5 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-2 ">
             <div>
-             <p className="flex  items-center">
+             <div className="flex  items-center">
              Hi
               <motion.span
                 className="inline-block pb-2 text-yellow-300"
@@ -43,16 +45,21 @@ export function DotBackground() {
               >
                 👋
               </motion.span>
-             </p>
+             </div>
               
               {`I'm Simarjeet`}
             </div>
-          </p>
-          <p className="text-4xl sm:text-xl font-mono font-bold relative z-5 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 ">
-            {`I'm a fullstack developer`}
-          </p>
+          </div>
+          <div className="text-4xl sm:text-xl font-mono font-bold relative z-5 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 ">
+            {`I'm a self-taught fullstack developer`}
+          </div>
+          <div>
+            <IntroBtns/>
+          </div>
         </motion.div>
       </div>
     </div>
   );
 }
+
+
