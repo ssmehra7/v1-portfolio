@@ -8,7 +8,7 @@ import tictactoe from "../assets/images/tictactoe.png"
 
 export const Languages =[
     {
-        label:"Html",
+        label:"HTML",
         url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
     },
     {
@@ -16,16 +16,16 @@ export const Languages =[
         url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
     },
     {
-        label:"React-icon",
+        label:"React.js",
         url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
     },
     
     {
-        label:"Js-icon",
+        label:"JavaScript",
         url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
     },
     {
-        label:"TS-icon",
+        label:"TypeScript",
         url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
     },
     {
@@ -37,7 +37,7 @@ export const Languages =[
         url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
     },
     {
-        label: "Node.js",
+        label: "Node",
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
     },
     
@@ -48,7 +48,7 @@ export const Languages =[
 export const Frameworks=[
    
     {
-        label:"Express-icon",
+        label:"Express",
         url:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
     },
     {

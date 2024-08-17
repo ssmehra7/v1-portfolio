@@ -18,7 +18,7 @@ export function LayoutGridProject() {
   },[inView,setActive]);
   
   return (
-    <div className="mb-10 scroll-mt-32" ref={ref} id="projects">
+    <div className="scroll-mt-32 mb-32 " ref={ref} id="projects">
     <div className=" text-white flex z-auto font-semibold font-mono  justify-center items-center text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500" >
         Projects
         </div>
@@ -68,10 +68,12 @@ const Skeleton:React.FC<SkeletonProps> = ({
 
 const cards = ProjectImages.map((card, key)=>{
   let i = 1; 
+  let c = "col-span-1";
   if (key%2){
     i = 1;
   }else{
     i =2;
+    c= "md:col-span-2";
   }
 
   return(
@@ -83,7 +85,7 @@ const cards = ProjectImages.map((card, key)=>{
         githubUrl={card.github} 
         LiveLinkUrl={card.LiveLink}
         />,
-      className:`md:col-span-${i}`,
+      className:c,
       thumbnail:card.url.src, 
 
     }
