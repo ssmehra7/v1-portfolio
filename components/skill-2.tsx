@@ -24,7 +24,7 @@ export function Skills2() {
     <div
       ref={ref} 
       id="skills"
-      className="scroll-mt-32 h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden px-4 sm:px-8"
+      className="scroll-mt-48  h-screen  rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden px-4 sm:px-8"
     >
       <div className="text-5xl font-semibold pb-4 font-mono bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500">
         Skills
