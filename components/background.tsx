@@ -47,11 +47,17 @@ export function DotBackground() {
               </motion.span>
              </div>
               
-              {`I'm Simarjeet`}
+              {`I'm Simarjeet Singh Mehra`}
             </div>
           </div>
           <div className="text-4xl sm:text-xl font-mono font-bold relative z-5 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 ">
-            {`I'm a self-taught fullstack developer`}
+            {`I'm a full-stack developer`}
+          </div>
+          <div className="text-4xl sm:text-xl font-mono font-bold relative z-5 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 ">
+            {`I thrive on building dynamic web applications`}
+          </div>
+          <div className="text-4xl sm:text-xl font-mono font-bold relative z-5 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 ">
+            {`that deliver exceptional user experiences.`}
           </div>
           <div>
             <IntroBtns/>
