@@ -26,7 +26,7 @@ export const IntroBtns = () => {
                 <Btn2 label="Contact Me" icon={<IoMdContact />} />
             </div>
 
-            <Link href={"https://drive.google.com/file/d/1s-aaTc2HUpE3ebzQFuz62DeRAFA6Bp_j/view"} target="_blank" className="hover:scale-105 transition-all">
+            <Link href={"https://drive.google.com/file/d/1lXlTKAQyes962UDdGnP47AmgQH3tkGh-/view"} target="_blank" className="hover:scale-105 transition-all">
                 <Btn2 label="Resume" icon={<MdOutlineFileDownload />} />
             </Link>
             
