@@ -81,7 +81,7 @@ export const Navbar =()=>{
                                 <Link  className={cn(
                                     "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition",
                                     
-                                )} href={"https://drive.google.com/file/d/1lXlTKAQyes962UDdGnP47AmgQH3tkGh-/view"} target="_blank">
+                                )} href={"https://drive.google.com/file/d/17eqerLVqTNHyDAwewo7VoB8br7vXtuWA/view?usp=sharing"} target="_blank">
                                 {
                                     "Resume"
                                 }
