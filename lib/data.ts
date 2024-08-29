@@ -4,6 +4,8 @@ import renthub from "../assets/images/renthub.png"
 import cms from "../assets/images/ecommerce-cms.png"
 import article from "../assets/images/Screenshot 2024-08-13 203608.png"
 import tictactoe from "../assets/images/tictactoe.png"
+import store from "../assets/images/ecommerce.png";
+import cli from "../assets/images/cli.png";
 
 
 export const Languages =[
@@ -143,16 +145,16 @@ export const ProjectImages = [
         github:"https://github.com/ssmehra7/Paypro", 
         LiveLink:""
     },
-
-    
-    
     {
-        url: cms, 
-        label: "E-commerce CMS",
-        description: "A content management system for e-commerce platforms.", 
-        github:"https://github.com/ssmehra7/E-commerce", 
-        LiveLink:"", 
+        url: store, 
+        label: "Ecommerce-Store",
+        description: "Made a Client side Ecommerce Store where the data is fetched from the CMS",
+        github:"https://github.com/ssmehra7/ecommerce-store", 
+        LiveLink:"https://ecommerce-store-ddfcyqo43-ssmehra7s-projects.vercel.app/"
     },
+    
+    
+    
 
     {
         url: article, 
@@ -162,6 +164,26 @@ export const ProjectImages = [
         LiveLink:"https://sumzai.netlify.app/"
     },
     {
+        url: cms, 
+        label: "E-commerce CMS",
+        description: "A content management system for e-commerce platforms.", 
+        github:"https://github.com/ssmehra7/E-commerce", 
+        LiveLink:"https://e-commerce-admin-red.vercel.app/", 
+    },
+
+    {
+        url:cli,
+        label:"CLI for directory management",
+        description:"Developed a Cli tool for Directory management",
+        github:"https://github.com/ssmehra7/cli-dir-manager",
+        LiveLink:""
+    },
+    
+    
+   
+   
+   
+    {
         url: renthub, 
         label: "RentHub",
         description: "Developed a responsive MERN stack app for apartment rentals.", 
@@ -169,14 +191,14 @@ export const ProjectImages = [
         LiveLink:"https://renthub-gnse.onrender.com/"
     },
    
-   
+  
     {
         url: tictactoe, 
         label: "TicTacToe",
         description: "Made a TicTacToe game when I was learning HTML , CSS, JS",
         github:"https://github.com/ssmehra7/TIcTacToe", 
         LiveLink:""
-    }
+    },
 ];
 
 
@@ -207,3 +229,8 @@ export const links = [
     },
     
 ]
+
+
+
+
+export const Resume_link = "https://drive.google.com/file/d/1s-aaTc2HUpE3ebzQFuz62DeRAFA6Bp_j/view";
