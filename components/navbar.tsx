@@ -1,7 +1,7 @@
 "use client"
 
 import { useActiveSection } from "@/hooks/use-active-section"
-import { links } from "@/lib/data"
+import { links, Resume_link } from "@/lib/data"
 import { cn } from "@/lib/utils"
 import { motion } from "framer-motion"
 import Link from "next/link"
@@ -81,7 +81,7 @@ export const Navbar =()=>{
                                 <Link  className={cn(
                                     "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition",
                                     
-                                )} href={"https://drive.google.com/file/d/17eqerLVqTNHyDAwewo7VoB8br7vXtuWA/view?usp=sharing"} target="_blank">
+                                )} href={Resume_link} target="_blank">
                                 {
                                     "Resume"
                                 }

@@ -5,6 +5,7 @@ import { TiSocialLinkedin } from "react-icons/ti"
 import { FaGithub } from "react-icons/fa"
 import { useActiveSection } from "@/hooks/use-active-section"
 import Link from "next/link"
+import { Resume_link } from "@/lib/data"
 
 
 export const IntroBtns = () => {
@@ -26,7 +27,7 @@ export const IntroBtns = () => {
                 <Btn2 label="Contact Me" icon={<IoMdContact />} />
             </div>
 
-            <Link href={"https://drive.google.com/file/d/17eqerLVqTNHyDAwewo7VoB8br7vXtuWA/view"} target="_blank" className="hover:scale-105 transition-all">
+            <Link href={Resume_link} target="_blank" className="hover:scale-105 transition-all">
                 <Btn2 label="Resume" icon={<MdOutlineFileDownload />} />
             </Link>
             
