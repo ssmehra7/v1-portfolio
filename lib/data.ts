@@ -233,4 +233,4 @@ export const links = [
 
 
 
-export const Resume_link = "https://drive.google.com/file/d/1A_HBIC4k7H_qfAJ3sKRnu3RizARjlsSA/view?usp=sharing";
+export const Resume_link = "https://drive.google.com/file/d/1NV5yDKP1iN4iJFH4lRG0tNUPwb0l0AcJ/view?usp=sharing";
